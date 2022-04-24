@@ -1,0 +1,185 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(12, 97, 12);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-image: url(https://media.istockphoto.com/photos/spirulina-maca-and-moringa-powder-and-pills-on-green-background-picture-id1335863339?k=20&m=1335863339&s=612x612&w=0&h=-orxk0yQ9aKMcxJKaPYGDMzsvI79gMy09gDsqRH_k_Y=);
+  }
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  
+  /* Current/active navbar link */
+  .active {
+    color: rgb(162, 50, 50);
+  }
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+  .nav-link{
+      color: rgb(14, 137, 55);
+      font-weight: bolder;
+      padding: 6px;
+      font: 10px;
+
+  }
+  #hero{
+      margin-top: 10rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 2rem;
+  }
+  .hero-heading{
+      color: rgb(20, 126, 66);
+      padding-bottom: 0;
+      margin-bottom: 0;
+      word-wrap: break-word;
+  }
+  .hero-brief{
+      padding-top: 0;
+      margin-top: 4px;
+      font-weight: bold;
+      font-size: 15px;
+      
+  }
+  #hero input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+  }
+  
+  #hero input[type='submit'] {
+    max-width: 150px;
+    width: 100%;
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: green;
+  }
+  
+  #hero input[type='submit']:hover {
+    background-color: rgb(106, 232, 173);
+    transition: background-color 1s;
+  }
+  
+  @media (max-width: 650px) {
+    #hero {
+      margin-top: 120px;
+    }
+  }
+  .service-card-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-top: 2rem;
+    margin-right: 6rem;
+    margin-left: 6rem;
+  }
+  
+  
+  .services-card {
+    padding: 10px 6px;
+     transform: 0.3s;
+    border-radius: 5px;
+    width: 100%;
+    height: 200%;
+  }
+  
+
+  @media (max-width: 550px) {
+    .service-card-wrapper {
+      width: 100%;
+      text-align: center;
+      padding: 0;
+      height: 150px;
+      
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .services-card {
+      margin-top: 0;
+    }
+  }
+ 
+  h3{
+      font-size: 22px;
+      color: rgb(20, 126, 66);
+  }
+
+  
+#how-it-works {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #how-it-works > iframe {
+    max-width: 560px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  #tenor{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  h2{
+      color: rgb(20, 126, 66);
+  }
+  h4{
+      color: red;
+      font-weight: bold;
+      font-size: 18px;
+  }
+  .btn{
+    height: 30px;
+    margin: 15px 0;
+    border: 0;
+    background-color: green;
+    color: white;
+  }
+  .btn:hover{
+    background-color: rgb(106, 232, 173);
+    transition: background-color 1s;
+  }
+  footer {
+    margin-top: 30px;
+    background-color: green;
+    padding: 20px;
+    height: 40px;
+  }
+  span{
+      padding-top: 10px;
+      padding-bottom: 20px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+  }
+  a{
+      padding-left: 20px;
+      padding-right: 20px;
+      color: white;
+  }
